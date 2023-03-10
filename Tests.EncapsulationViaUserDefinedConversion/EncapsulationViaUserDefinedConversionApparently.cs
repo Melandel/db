@@ -8,7 +8,7 @@ public class EncapsulationViaUserDefinedConversionApparently
 	public void Does_Not_Call_Constructor_When_Using_Conversion()
 	{
 		// Arrange
-		var obj = ClassWithPrivateIntFieldPubliclyExposedUsingUserDefinedImplicitConversion.FromInteger(2);
+		var obj = ClassWithPrivatePositiveIntFieldPubliclyExposedUsingUserDefinedImplicitConversion.FromInteger(2);
 
 		// Act & Assert
 		Assert.That(() =>
