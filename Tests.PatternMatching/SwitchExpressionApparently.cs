@@ -21,4 +21,21 @@ class SwitchExpressionApparently
 		// Assert
 		Assert.That(nb, Is.EqualTo(4));
 	}
+
+	[Test]
+	public void Throws_NullReferenceException_If_Null_Case_Throws_Before_NullValue_Is_Handled()
+	{
+		// Arrange
+		string str = null;
+
+		// Act & Assert
+		Assert.That(() =>
+		{
+			var nb = str switch
+			{
+				var text when text.StartsWith("abc") => 0, // text is null!
+				_ => 1
+			};
+		}, Throws.TypeOf<NullReferenceException>());
+	}
 }
