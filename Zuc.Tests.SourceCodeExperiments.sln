@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests.Inheritance", "Tests.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests.Serialization", "Tests.Serialization\Tests.Serialization.csproj", "{380EC2D2-62F6-49B6-B677-B9E14197BCC0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests.Range", "Tests.Range\Tests.Range.csproj", "{FB17E492-7626-4400-A37D-E9BA60613156}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -72,5 +74,9 @@ Global
 		{380EC2D2-62F6-49B6-B677-B9E14197BCC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{380EC2D2-62F6-49B6-B677-B9E14197BCC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{380EC2D2-62F6-49B6-B677-B9E14197BCC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB17E492-7626-4400-A37D-E9BA60613156}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB17E492-7626-4400-A37D-E9BA60613156}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB17E492-7626-4400-A37D-E9BA60613156}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB17E492-7626-4400-A37D-E9BA60613156}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
