@@ -7,6 +7,7 @@ class SwitchExpressionApparently
 	{
 		// Arrange
 		string str = null;
+
 		// Act
 		var nb = str switch
 		{
