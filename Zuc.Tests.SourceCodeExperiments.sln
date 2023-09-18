@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests.Serialization", "Test
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests.Range", "Tests.Range\Tests.Range.csproj", "{FB17E492-7626-4400-A37D-E9BA60613156}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests.RegularExpressions", "Tests.RegularExpressions\Tests.RegularExpressions.csproj", "{F888B91D-BB5C-45A0-93DF-7DA72C34A84F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -78,5 +80,9 @@ Global
 		{FB17E492-7626-4400-A37D-E9BA60613156}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FB17E492-7626-4400-A37D-E9BA60613156}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FB17E492-7626-4400-A37D-E9BA60613156}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F888B91D-BB5C-45A0-93DF-7DA72C34A84F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F888B91D-BB5C-45A0-93DF-7DA72C34A84F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F888B91D-BB5C-45A0-93DF-7DA72C34A84F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F888B91D-BB5C-45A0-93DF-7DA72C34A84F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
