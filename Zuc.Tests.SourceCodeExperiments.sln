@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests.Range", "Tests.Range\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests.RegularExpressions", "Tests.RegularExpressions\Tests.RegularExpressions.csproj", "{F888B91D-BB5C-45A0-93DF-7DA72C34A84F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests.Filesystem", "Tests.Filesystem\Tests.Filesystem.csproj", "{FFA8CA9C-9BFB-4413-84AE-4A95F8439722}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -84,5 +86,9 @@ Global
 		{F888B91D-BB5C-45A0-93DF-7DA72C34A84F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F888B91D-BB5C-45A0-93DF-7DA72C34A84F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F888B91D-BB5C-45A0-93DF-7DA72C34A84F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFA8CA9C-9BFB-4413-84AE-4A95F8439722}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFA8CA9C-9BFB-4413-84AE-4A95F8439722}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFA8CA9C-9BFB-4413-84AE-4A95F8439722}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFA8CA9C-9BFB-4413-84AE-4A95F8439722}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
