@@ -1,0 +1,28 @@
+{
+  "Databases":
+  {
+    "SqlServer": [
+       {
+         "Name": "someSqlServerDatabaseName", "Description": "Contains ABC",
+         "Instances": [
+           { "Environment": "dev", "ConnectionString": "x" },
+           { "Environment": "qa", "ConnectionString": "y" },
+           { "Environment": "pre", "ConnectionString": "z" },
+           { "Environment": "prod", "ConnectionString": "zzz" }
+         ]
+       }
+    ],
+    "CosmosDB": [
+       {
+         "Name": "someCosmosDbDatabaseName", "Description": "Contains DEF",
+         "Instances": [
+           { "Environment": "dev", "EndpointUrl": "a", "AuthorizationKey": "b", "DatabaseId": "c", "ContainerId": "d" },
+           { "Environment": "qa", "EndpointUrl": "e", "AuthorizationKey": "f", "DatabaseId": "g", "ContainerId": "h" },
+           { "Environment": "pre", "EndpointUrl": "i", "AuthorizationKey": "j", "DatabaseId": "k", "ContainerId": "l" },
+           { "Environment": "prod", "EndpointUrl": "m", "AuthorizationKey": "n", "DatabaseId": "o", "ContainerId": "p" }
+         ]
+       }
+    ]
+  }
+}
+
