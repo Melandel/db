@@ -1,4 +1,4 @@
-
+﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
@@ -32,6 +32,8 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Src.SomeMinimalWebApiProject", "Src.SomeMinimalWebApiProject\Src.SomeMinimalWebApiProject.csproj", "{E01C93A3-8D4C-4A88-9CD1-4F20AE3E0ED8}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tests.InMemoryTestServer", "Tests.InMemoryTestServer\Tests.InMemoryTestServer.csproj", "{9E8D38E4-D904-467D-AFB7-65FE107E9B80}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests.Reflection", "Tests.Reflection\Tests.Reflection.csproj", "{45061AE2-DF99-4906-B9A4-DB1377A3C8C3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -102,5 +104,9 @@ Global
 		{9E8D38E4-D904-467D-AFB7-65FE107E9B80}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9E8D38E4-D904-467D-AFB7-65FE107E9B80}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9E8D38E4-D904-467D-AFB7-65FE107E9B80}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45061AE2-DF99-4906-B9A4-DB1377A3C8C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45061AE2-DF99-4906-B9A4-DB1377A3C8C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45061AE2-DF99-4906-B9A4-DB1377A3C8C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45061AE2-DF99-4906-B9A4-DB1377A3C8C3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
