@@ -1,37 +1,37 @@
-﻿
+
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests.AutoMapper", "Tests.AutoMapper\Tests.AutoMapper.csproj", "{3FC46184-B5D7-4668-A3E8-A5A6F4C25C9A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tests.AutoMapper", "Tests.AutoMapper\Tests.AutoMapper.csproj", "{3FC46184-B5D7-4668-A3E8-A5A6F4C25C9A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests.TestData", "Tests.TestData\Tests.TestData.csproj", "{58469CA6-DAA1-46D5-A00B-E8C92CF44687}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tests.TestData", "Tests.TestData\Tests.TestData.csproj", "{58469CA6-DAA1-46D5-A00B-E8C92CF44687}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests.EncapsulationViaUserDefinedConversion", "Tests.EncapsulationViaUserDefinedConversion\Tests.EncapsulationViaUserDefinedConversion.csproj", "{078C6418-F639-467D-9063-ED998F993334}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tests.EncapsulationViaUserDefinedConversion", "Tests.EncapsulationViaUserDefinedConversion\Tests.EncapsulationViaUserDefinedConversion.csproj", "{078C6418-F639-467D-9063-ED998F993334}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests.UserDefinedConversion", "Tests.UserDefinedConversion\Tests.UserDefinedConversion.csproj", "{EA1ADA3E-ECC4-44FE-887F-CEB813EC00B2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tests.UserDefinedConversion", "Tests.UserDefinedConversion\Tests.UserDefinedConversion.csproj", "{EA1ADA3E-ECC4-44FE-887F-CEB813EC00B2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests.PatternMatching", "Tests.PatternMatching\Tests.PatternMatching.csproj", "{F6FFF93C-E690-4198-BAFA-7EC4670ADA19}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tests.PatternMatching", "Tests.PatternMatching\Tests.PatternMatching.csproj", "{F6FFF93C-E690-4198-BAFA-7EC4670ADA19}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests.Records", "Tests.Records\Tests.Records.csproj", "{B7190A72-A91F-4CA0-91E5-ABF2DD4934D0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tests.Records", "Tests.Records\Tests.Records.csproj", "{B7190A72-A91F-4CA0-91E5-ABF2DD4934D0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests.ConversionUsingKeywordAs", "Tests.ConversionUsingKeywordAs\Tests.ConversionUsingKeywordAs.csproj", "{84AE7180-CDE7-40A4-A253-D63B883CE91E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tests.ConversionUsingKeywordAs", "Tests.ConversionUsingKeywordAs\Tests.ConversionUsingKeywordAs.csproj", "{84AE7180-CDE7-40A4-A253-D63B883CE91E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests.Enums", "Tests.Enums\Tests.Enums.csproj", "{FF64CCE9-18F0-420E-9239-DC5F5195A982}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tests.Enums", "Tests.Enums\Tests.Enums.csproj", "{FF64CCE9-18F0-420E-9239-DC5F5195A982}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests.Inheritance", "Tests.Inheritance\Tests.Inheritance.csproj", "{403EB1EE-3805-4028-9958-48A40B045856}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tests.Inheritance", "Tests.Inheritance\Tests.Inheritance.csproj", "{403EB1EE-3805-4028-9958-48A40B045856}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests.Serialization", "Tests.Serialization\Tests.Serialization.csproj", "{380EC2D2-62F6-49B6-B677-B9E14197BCC0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tests.Serialization", "Tests.Serialization\Tests.Serialization.csproj", "{380EC2D2-62F6-49B6-B677-B9E14197BCC0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests.Range", "Tests.Range\Tests.Range.csproj", "{FB17E492-7626-4400-A37D-E9BA60613156}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tests.Range", "Tests.Range\Tests.Range.csproj", "{FB17E492-7626-4400-A37D-E9BA60613156}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests.RegularExpressions", "Tests.RegularExpressions\Tests.RegularExpressions.csproj", "{F888B91D-BB5C-45A0-93DF-7DA72C34A84F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tests.RegularExpressions", "Tests.RegularExpressions\Tests.RegularExpressions.csproj", "{F888B91D-BB5C-45A0-93DF-7DA72C34A84F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests.Filesystem", "Tests.Filesystem\Tests.Filesystem.csproj", "{FFA8CA9C-9BFB-4413-84AE-4A95F8439722}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tests.Filesystem", "Tests.Filesystem\Tests.Filesystem.csproj", "{FFA8CA9C-9BFB-4413-84AE-4A95F8439722}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Src.SomeMinimalWebApiProject", "Src.SomeMinimalWebApiProject\Src.SomeMinimalWebApiProject.csproj", "{E01C93A3-8D4C-4A88-9CD1-4F20AE3E0ED8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Src.SomeMinimalWebApiProject", "Src.SomeMinimalWebApiProject\Src.SomeMinimalWebApiProject.csproj", "{E01C93A3-8D4C-4A88-9CD1-4F20AE3E0ED8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests.InMemoryTestServer", "Tests.InMemoryTestServer\Tests.InMemoryTestServer.csproj", "{9E8D38E4-D904-467D-AFB7-65FE107E9B80}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tests.InMemoryTestServer", "Tests.InMemoryTestServer\Tests.InMemoryTestServer.csproj", "{9E8D38E4-D904-467D-AFB7-65FE107E9B80}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
