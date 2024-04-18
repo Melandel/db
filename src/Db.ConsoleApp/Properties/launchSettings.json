@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Db.ConsoleApp": {
+      "commandName": "Project",
+      "commandLineArgs": "list"
+    }
+  }
+}
